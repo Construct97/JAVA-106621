@@ -1,0 +1,18 @@
+package Zadanie4;
+
+public class People {
+    public String imie;
+    public String nazwisko;
+    public int wiek;
+
+    public People(String imie, String nazwisko,int wiek,) {
+
+        this.nazwisko = nazwisko;
+        this.imie = imie;
+        this.wiek = wiek;
+    }
+
+    public String PrintInfo() {
+        return "Imie: " + this.imie + " nazwisko: " + this.nazwisko+ " wiek: " + this.wiek ;
+    }
+}
